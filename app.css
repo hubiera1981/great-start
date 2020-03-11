@@ -1,13 +1,13 @@
 h1 { 
-    color: red;
-    border-color: purple;
+    color: #ffff;
+    border-color: #00ff99;
     border-width: 5px;
     border-style: solid;
 }
 width
 
 li {
-    color: green;
+    color: #00ff80;
 }
 
 h4 {
