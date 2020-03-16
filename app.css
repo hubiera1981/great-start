@@ -1,6 +1,6 @@
 h1 { 
-    color: #ffff;
-    border-color: #00ff99;
+    color: red;
+    border-color: purple;
     border-width: 5px;
     border-style: solid;
 }
