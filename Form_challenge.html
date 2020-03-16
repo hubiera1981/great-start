@@ -19,24 +19,43 @@
         <Label for="other">Other</Label>
         <input id="other" name="gender" type="radio" value="other">
    </div>
-    
-        <label>Email</label>
-        <input id="Email" placeholder="Your Email" required>
-        <label for="Password">Password</label>
-        <input id="Password" placeholder="Your password" required>
- <div>
-        <label>Birthday</label>
+   <div>
+     <label>Email:
+        <input name="email" type="email" placeholder="Your Email" required>
+    </label>
+        <label>
+            Password:
+        <input name="password" type="Password" placeholder="Your password" minlength="8" required>
+    </label>  
+   </div>
+
+  <div>
+        
+    <label>
+        Birthday:
         <select name="month">
+            <option>Month</option>
             <option>June</option>
             <option>July</option>
             <option>August</option>
             </select>
-        <select>
+        <select name="day">
             <option>Day</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
         </select>
-        <select>
+        <select name="year">
             <option>Year</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
         </select>
+    </label>
+</div>
+<div>
+    <label for="agreed">I agree to the terms and conditions:</label>
+    <input id="agreed" name="agreed" type="checkbox"></inpuy>
 </div>
         <input type="Submit">
     </form>
