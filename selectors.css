@@ -61,7 +61,7 @@ div:nth-of-type(3) p{
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 div:nth-of-type(3) p:nth-of-type(2){
-    border: 5px solid rgb(119, 20, 20);
+    border: 5px solid white;
 }
 
 
